@@ -530,6 +530,8 @@ body {
 
 .contact-content {
     display: grid;
+    grid-template-columns : 1fr 1fr;
+    gap : 4rem;
 }
 
 .contact-info h3 {
@@ -546,9 +548,6 @@ body {
 
 .contact-details {
     margin-bottom: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 23px;
 }
 
 .contact-item {
